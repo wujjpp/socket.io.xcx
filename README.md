@@ -2,7 +2,10 @@
 
 可以使用在微信小程序中的socket.io和engine.io
 
-NOTE:编译出来的包只能在微信小程序当中使用
+微信小程序的websocket做了一次封装，导致socket.io或者engine.io客户端包，无法直接使用
+，该项目在engine.io-client项目基础上，实现wxwebsocket的传输层，使得在小程序中能使用socket.io的所有功能。
+
+注意：编译出来的包只能在微信小程序当中使用
 
 ## 安装
 ```shell
