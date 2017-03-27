@@ -1,0 +1,11 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view wx:if="{{messages.length == 0}}">No data</view>
+  <block wx:if="{{messages.length > 0}}">
+    <view wx:for="{{messages}}">
+      {{item}}
+    </view>
+  </block>
+  <button bindtap="send">发送</button>
+</view>

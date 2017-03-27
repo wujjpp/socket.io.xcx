@@ -1,0 +1,29 @@
+{
+  "name": "socket.io.xcx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -s xcxEngineIO -d ./lib/engine.io-client/index.js > ./dist/engine.io.xcx.js && browserify -s xcxSocketIO -d ./lib/socket.io-client/lib/index.js > ./dist/socket.io.xcx.js && uglifyjs ./dist/engine.io.xcx.js -o ./dist/engine.io.xcx.min.js && uglifyjs ./dist/socket.io.xcx.js -o ./dist/socket.io.xcx.min.js && uglifyjs ./dist/socket.io.xcx.js -o ./examples/app/socket.io.xcx.min.js",
+    "serve": "node ./examples/server/app.js"
+  },
+  "keywords": [
+    "realtime",
+    "framework",
+    "websocket",
+    "tcp",
+    "events",
+    "socket",
+    "io",
+    "微信",
+    "小程序"
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2",
+    "uglifyjs": "^2.4.10"
+  }
+}
