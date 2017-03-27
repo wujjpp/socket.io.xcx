@@ -23,3 +23,5 @@ $ npm install
 
 ## 生产环境中使用
 复制dist/socket.io.xcx.min.js到您的小程序源码，直接使用，具体可参照examples/app
+
+Made with ♥ by Wu Jian Ping
