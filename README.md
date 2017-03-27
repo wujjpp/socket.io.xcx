@@ -16,7 +16,9 @@ $ npm install
 
 ## 运行测试服务器&测试微信小程序
 1. 运行测试服务器
-`npm run serve`
+```shell
+$ npm run serve
+```
 2. 使用 "微信web开发者工具" 打开examples/app项目，运行样例小程序
 
 注意：运行测试程序，请开启"开发环境不校验请求域名及TLS版本"
