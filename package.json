@@ -18,7 +18,7 @@
     "微信",
     "小程序"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "browserify": "^14.1.0",
