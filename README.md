@@ -8,6 +8,7 @@
 注意：编译出来的包只能在微信小程序当中使用
 
 [![Build Status](https://travis-ci.org/wujjpp/socket.io.xcx.svg?branch=master)](https://travis-ci.org/wujjpp/socket.io.xcx)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/socket-io-xcx/Lobby)
 
 ## 安装
 ```shell
