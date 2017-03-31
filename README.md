@@ -1,4 +1,4 @@
-# 微信小程序版 socket.io和engine.io &middot; [![Build Status](https://travis-ci.org/wujjpp/socket.io.xcx.svg?branch=master)](https://travis-ci.org/wujjpp/socket.io.xcx)
+# 微信小程序版 socket.io和engine.io [![Build Status](https://travis-ci.org/wujjpp/socket.io.xcx.svg?branch=master)](https://travis-ci.org/wujjpp/socket.io.xcx)
 
 可以使用在微信小程序中的socket.io和engine.io
 
