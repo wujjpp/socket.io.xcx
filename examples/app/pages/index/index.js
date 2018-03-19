@@ -2,7 +2,7 @@
 //获取应用实例
 
 import io from '../../socket.io.xcx.min'
-let socket = io('ws://192.168.20.51:3000')
+let socket = io('ws://127.0.0.1:3000')
 
 function _setup() {
     var self = this;
