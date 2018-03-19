@@ -98,7 +98,7 @@ server.listen(port, function () {
 
 io.on('connection', function (socket) {
 
-    // when the client emits 'new message', this listens and executes
+    // when the client emits 'message', this listens and executes
     socket.on('message', function (data) {
 
         console.log('message from client: ', data);
